@@ -4,7 +4,7 @@
   "description": "Biome configuration shared for Kontent.ai projects",
   "type": "module",
   "exports": {
-    ".": "./biome.json",
+    "base": "./biome.json",
     "react": "./biome.react.json"
   },
   "author": "Jiri Lojda",
