@@ -1,0 +1,15 @@
+{
+  "name": "@kontent-ai/biome-config",
+  "version": "0.1.0",
+  "description": "Biome configuration shared for Kontent.ai projects",
+  "type": "module",
+  "exports": {
+    ".": "./biome.json",
+    "react": "./biome.react.json"
+  },
+  "author": "Jiri Lojda",
+  "license": "MIT",
+  "peerDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}
