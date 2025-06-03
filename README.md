@@ -28,7 +28,7 @@ This is the Biome configuration that Kontent.ai uses for its TypeScript packages
     ```jsonc
     // biome.json
     {
-        "extends": ["@kontent-ai/biome-config"]
+        "extends": ["@kontent-ai/biome-config/base"]
     }
     ```
 
@@ -38,7 +38,7 @@ This is the Biome configuration that Kontent.ai uses for its TypeScript packages
     // biome.json
     {
         "extends": [
-            "@kontent-ai/biome-config",
+            "@kontent-ai/biome-config/base",
             "@kontent-ai/biome-config/react"
         ]
     }
@@ -58,7 +58,7 @@ This is the Biome configuration that Kontent.ai uses for its TypeScript packages
     ```
 
 Available configurations are:
-* `@kontent-ai/biome-config` (base configuration for any TypeScript/JavaScript file)
+* `@kontent-ai/biome-config/base` (base configuration for any TypeScript/JavaScript file)
 * `@kontent-ai/biome-config/react` (React specific rules, should be used together with the base configuration)
 
 # License
