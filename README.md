@@ -28,6 +28,7 @@ This is the Biome configuration that Kontent.ai uses for its TypeScript packages
     ```jsonc
     // biome.json
     {
+        "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
         "extends": ["@kontent-ai/biome-config/base"]
     }
     ```
@@ -37,6 +38,7 @@ This is the Biome configuration that Kontent.ai uses for its TypeScript packages
     ```jsonc
     // biome.json
     {
+        "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
         "extends": [
             "@kontent-ai/biome-config/base",
             "@kontent-ai/biome-config/react"
