@@ -42,11 +42,10 @@
         "useImportType": "error",
         "useExportType": "error",
         "useConst": "error",
-        "useTemplate": "error"
-      },
-      "nursery": {
+        "useTemplate": "error",
         "useConsistentCurlyBraces": "error"
-      }
+      },
+      "nursery": {}
     }
   },
   "javascript": {
@@ -56,10 +55,8 @@
       "semicolons": "always"
     }
   },
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "files": {
-    "ignore": ["**/node_modules/**", "**/dist/**", "**/build/**"]
+    "includes": ["**", "!**/node_modules/**", "!**/dist/**", "!**/build/**"]
   }
 }
