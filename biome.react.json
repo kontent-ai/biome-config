@@ -5,6 +5,14 @@
     "rules": {
       "correctness": {
         "useHookAtTopLevel": "error"
+      },
+      "style": {
+        "noImplicitBoolean": "error",
+        "useSelfClosingElements": "error",
+        "useReactFunctionComponents": "error"
+      },
+      "nursery": {
+        "noLeakedRender": "error"
       }
     }
   },

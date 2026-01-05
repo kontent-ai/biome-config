@@ -12,7 +12,9 @@
       "recommended": true,
       "suspicious": {
         "noSkippedTests": "error",
-        "useAwait": "error"
+        "useAwait": "error",
+        "noUselessRegexBackrefs": "error",
+        "noNonNullAssertedOptionalChain": "error"
       },
       "correctness": {
         "noConstantMathMinMaxClamp": "error",
@@ -41,9 +43,19 @@
         "useExportType": "error",
         "useConst": "error",
         "useTemplate": "error",
-        "useConsistentCurlyBraces": "error"
+        "useConsistentCurlyBraces": "error",
+        "useUnifiedTypeSignatures": "error",
+        "useSelfClosingElements": "error",
+        "useReactFunctionComponents": "error"
       },
-      "nursery": {}
+      "nursery": {
+        "noUnnecessaryConditions": "error",
+        "useExhaustiveSwitchCases": "error",
+        "noFloatingPromises": "error",
+        "noMisusedPromises": "error",
+        "noForIn": "error",
+        "useArraySortCompare": "error"
+      }
     }
   },
   "javascript": {
