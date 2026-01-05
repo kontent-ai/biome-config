@@ -24,9 +24,7 @@
       "complexity": {
         "noForEach": "off",
         "noUselessStringConcat": "error",
-        "noVoid": "error",
-        "useDateNow": "error",
-        "useSimplifiedLogicExpression": "error"
+        "useDateNow": "error"
       },
       "performance": {
         "noBarrelFile": "error"
