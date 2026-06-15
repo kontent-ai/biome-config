@@ -8,6 +8,10 @@
     "./react": "./biome.react.json"
   },
   "author": "Jiri Lojda",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kontent-ai/biome-config.git"
+  },
   "license": "MIT",
   "peerDependencies": {
     "@biomejs/biome": "^2.5.0"
