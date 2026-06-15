@@ -9,12 +9,15 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "suspicious": {
         "noSkippedTests": "error",
         "useAwait": "error",
         "noUselessRegexBackrefs": "error",
-        "noNonNullAssertedOptionalChain": "error"
+        "noNonNullAssertedOptionalChain": "error",
+        "noUnnecessaryConditions": "error",
+        "noForIn": "error",
+        "useArraySortCompare": "error"
       },
       "correctness": {
         "noConstantMathMinMaxClamp": "error",
@@ -49,12 +52,9 @@
         "useReactFunctionComponents": "error"
       },
       "nursery": {
-        "noUnnecessaryConditions": "error",
         "useExhaustiveSwitchCases": "error",
         "noFloatingPromises": "error",
-        "noMisusedPromises": "error",
-        "noForIn": "error",
-        "useArraySortCompare": "error"
+        "noMisusedPromises": "error"
       }
     }
   },
@@ -72,6 +72,6 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["**", "!**/node_modules/**", "!**/dist/**", "!**/build/**"]
+    "includes": ["**", "!**/node_modules", "!**/dist", "!**/build"]
   }
 }

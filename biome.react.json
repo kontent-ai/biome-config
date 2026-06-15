@@ -11,12 +11,12 @@
         "useSelfClosingElements": "error",
         "useReactFunctionComponents": "error"
       },
-      "nursery": {
+      "suspicious": {
         "noLeakedRender": "error"
       }
     }
   },
   "files": {
-    "includes": ["**", "!**/node_modules/**", "!**/dist/**", "!**/build/**"]
+    "includes": ["**", "!**/node_modules", "!**/dist", "!**/build"]
   }
 }
